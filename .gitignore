@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 生成物（同梱する results/state_1000Hz.pkl と figures/*.png は除外しない）
+figures/*.pdf
+results/*.tex
+results/m_convergence.pkl
